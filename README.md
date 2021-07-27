@@ -7,6 +7,6 @@
 - HTML
 - CSS
 - JavaScript
-- Normolize
+- Normalize
 - Fancybox
 
