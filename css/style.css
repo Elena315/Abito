@@ -25,7 +25,7 @@ body {
 .menu {
   list-style: none; /* отключаем точки в списке */
   margin: 0; /*обнулить отступы  */
-  padding-left: 22px; /* внуиренний отступ слева */
+  padding-left: 22px; /* внутренний отступ слева */
   padding-right: 22px; /* внутренний отступ справа */
   display: flex;
 }
@@ -45,10 +45,10 @@ body {
   /* padding-right: 15px; /* отступ справа */
   /*padding-bottom: 10px; /* отступ снизу */
   /* padding-left: 15px; /* отступ слева */
-  cursor: pointer;
+  cursor: pointer; /* при наведении курсора появляется рука вместо стрелки */
 }
 .button-link {
-  color: inherit;
+  color: inherit; /*цвет текста как у родителя*/
 }
 .button-primary {
   background: #256eeb; /* фон */
@@ -79,6 +79,7 @@ body {
   padding-right: 17px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .search-button-text {
   margin-left: 5px;
